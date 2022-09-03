@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1580203109 source:d:\code\c\cprmerplus\chapter_4\test_3.c
+	<stdio.h>
+
+1580205048 source:d:\code\c\cprmerplus\chapter_4\test_6.c
+	<stdio.h>
+	<string.h>
+
+1580220081 source:d:\code\c\cprmerplus\chapter_4\test_7.c
+	<stdio.h>
+	<float.h>
+

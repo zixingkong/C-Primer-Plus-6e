@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1580132311 source:d:\code\c\cprmerplus\chapter_3\test_1.c
+	<stdio.h>
+
+1580132592 source:d:\code\c\cprmerplus\chapter_3\test_2.c
+	<stdio.h>
+
+1580133135 source:d:\code\c\cprmerplus\chapter_3\test_4.c
+	<stdio.h>
+
+1580133412 source:d:\code\c\cprmerplus\chapter_3\test_5.c
+	<stdio.h>
+
+1580134051 source:d:\code\c\cprmerplus\chapter_3\test_7.c
+	<stdio.h>
+
+1580134392 source:d:\code\c\cprmerplus\chapter_3\test_8.c
+	<stdio.h>
+
+1580185838 source:d:\code\c\cprmerplus\chapter_3\test_debug.c
+	<stdio.h>
+
