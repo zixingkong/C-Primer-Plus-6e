@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main(void)
 {
-    char ch;
+    int ch;
 
-    while((ch=getchar()) != '#')
+    while((ch=getchar()) != EOF)
     {
         putchar(ch);
     }
