@@ -3,10 +3,13 @@
 int main(void)
 {
     int ch;
-
+    int num;
     while((ch=getchar()) != EOF)
     {
-        putchar(ch);
+        if (ch != '\n' &&  ch != '\r' && ch != ' '){
+            num++;
+        };
     }
+    printf("字符数量为: %d\n", num);
     return 0;
 }
