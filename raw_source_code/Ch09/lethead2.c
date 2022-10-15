@@ -19,7 +19,7 @@ int main(void)
     printf("%s\n", NAME);
     spaces = (WIDTH - strlen(ADDRESS)) / 2;
     /* Let the program calculate    */
-    /* how many spaces to skip      */
+    /* how many spaces to skip      */  
     show_n_char(SPACE, spaces);/* use a variable as argument   */
     printf("%s\n", ADDRESS);
     show_n_char(SPACE, (WIDTH - strlen(PLACE)) / 2);

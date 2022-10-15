@@ -14,18 +14,18 @@ int main(void)
         printf("Enter an integer (q to quit):\n");
     }
     printf("Done.\n");
-    
+
     return 0;
 }
 
-void to_binary(unsigned long n)   /* recursive function */
+void to_binary(unsigned long n) /* recursive function */
 {
     int r;
-    
+
     r = n % 2;
     if (n >= 2)
         to_binary(n / 2);
-     putchar(r == 0 ? '0' : '1');
-    
+    putchar(r == 0 ? '0' : '1');
+
     return;
 }
