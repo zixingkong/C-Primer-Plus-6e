@@ -27,7 +27,8 @@ int main()
             in_word = false;
         }
     }
+    printf("letter_count: %d , word_count: %d\n", letter_count, word_count);
     printf("Average letters per word: %.2f\n", (float)letter_count / word_count);
     return 0;
 }
-   
+ 
