@@ -31,4 +31,3 @@ int main()
     printf("Average letters per word: %.2f\n", (float)letter_count / word_count);
     return 0;
 }
- 
