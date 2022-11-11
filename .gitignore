@@ -1,6 +1,12 @@
 
 # Created by https://www.gitignore.io/api/C,Xcode,macOS
 
+# 忽略掉所有文件
+*
+# 取消忽略所有带有后缀名的文件
+!*.*
+# 取消忽略所有目录
+!*/
 ### C ###
 # Prerequisites
 *.d
