@@ -5,6 +5,7 @@
         "stdbool.h": "c",
         "stdlib.h": "c",
         "bitset": "c",
-        "ratio": "c"
+        "ratio": "c",
+        "stdio.h": "c"
     }
 }
