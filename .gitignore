@@ -121,5 +121,5 @@ xcuserdata/
 /*.gcno
 
 # End of https://www.gitignore.io/api/C,Xcode,macOS
-.node_modules
-.package*
+node_modules
+package*.json
