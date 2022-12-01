@@ -2,12 +2,12 @@
 #include <stdio.h>
 #define ANSWER "Grant"
 #define SIZE 40
-char * s_gets(char * st, int n);
+char *s_gets(char *st, int n);
 
 int main(void)
 {
     char try[SIZE];
-    
+
     puts("Who is buried in Grant's tomb?");
     s_gets(try, SIZE);
     while (try != ANSWER)
@@ -16,15 +16,15 @@ int main(void)
         s_gets(try, SIZE);
     }
     puts("That's right!");
-    
+
     return 0;
 }
 
-char * s_gets(char * st, int n)
+char *s_gets(char *st, int n)
 {
-    char * ret_val;
+    char *ret_val;
     int i = 0;
-    
+
     ret_val = fgets(st, n, stdin);
     if (ret_val)
     {

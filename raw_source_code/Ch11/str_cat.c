@@ -1,13 +1,13 @@
 /* str_cat.c -- joins two strings */
 #include <stdio.h>
-#include <string.h>  /* declares the strcat() function */
+#include <string.h> /* declares the strcat() function */
 #define SIZE 80
-char * s_gets(char * st, int n);
+char *s_gets(char *st, int n);
 int main(void)
 {
     char flower[SIZE];
     char addon[] = "s smell like old shoes.";
-    
+
     puts("What is your favorite flower?");
     if (s_gets(flower, SIZE))
     {
@@ -19,16 +19,14 @@ int main(void)
         puts("End of file encountered!");
     puts("bye");
 
-
     return 0;
 }
 
-
-char * s_gets(char * st, int n)
+char *s_gets(char *st, int n)
 {
-    char * ret_val;
+    char *ret_val;
     int i = 0;
-    
+
     ret_val = fgets(st, n, stdin);
     if (ret_val)
     {
